@@ -1,0 +1,4 @@
+Este es un documento de prueba para detectar palabras
+que se repiten debe decir cuantas palabras se repiten
+para obtener de respuesta cuales y cuantas
+ensayo: es un documento prueba detectar
