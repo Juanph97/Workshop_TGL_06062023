@@ -1,7 +1,7 @@
 # Create a Python program that reads a text file and counts the occurrences of each
 # word using a dictionary. The program should print the words and their counts.
 
-def word_occurrences(filename):
+def count_occurrences(filename):
     number_of_words = {}
     with open(filename, 'r') as file:
         for line in file:
@@ -15,8 +15,8 @@ def word_occurrences(filename):
     for word, count in number_of_words.items():
         print(f"{word}: {count}")
 
-# Provide the filename of the text file
+# nombre del archivo al que se le contarán las ocurrencias de palabras
 filename = "documento.txt"
 
-# Call the function to count word occurrences
-word_occurrences(filename)
+# llamado de la función para contar ocurrencias de palabras
+count_occurrences(filename)
